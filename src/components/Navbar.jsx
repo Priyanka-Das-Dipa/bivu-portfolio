@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 ">
       <div className="navbar-start">
         {/* medium device icon */}
         <div className="dropdown">
@@ -52,26 +52,6 @@ const Navbar = () => {
         </p>
       </div>
       <div className="navbar-center hidden lg:flex">
-        {/* <ul className="gap-10 menu-horizontal px-1 text-[#181818]">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Services</a>
-          </li>
-          <li>
-            <a>Reviews</a>
-          </li>
-          <li>
-            <a>Portfolio</a>
-          </li>
-          <li>
-            <a>Pricing</a>
-          </li>
-        </ul> */}
         <ul className="flex gap-10 menu-horizontal px-1 text-[#181818]">
           <li className="relative group">
             <a className="font-medium">Home</a>

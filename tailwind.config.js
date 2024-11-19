@@ -6,7 +6,11 @@ export default {
     extend: {
       backgroundImage: {
         "purple-blue": "linear-gradient(to right, #9642a7, #3951f2)",
+
+        'primary-gradient': 'linear-gradient(to right, #6a0dad, #3951f2)',
       },
+      
+      
       keyframes: {
         // wave: {
         //   '0%, 100%': { transform: 'translateX(-5px)' },

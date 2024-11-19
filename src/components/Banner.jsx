@@ -6,7 +6,8 @@ const Banner = () => {
       <div className="flex flex-col lg:flex-row justify-evenly items-center gap-16">
         <div className="flex-1">
           <h1 className="text-3xl md:text-5xl font-bold space-y-2">
-            Elevate Your <span className="text-[#3951f2]">Business</span> With
+            Elevate Your <span className="text-primary-gradient">Business</span>{" "}
+            With
             <br /> Data-Driven Marketing <br /> and Decisions.
           </h1>
           <p className=" ">
@@ -28,6 +29,12 @@ const Banner = () => {
               their campaigns run smoothly and efficiently.
             </span>
           </p>
+          <div>
+            <button className="btn rounded-3xl px-6 text-white bg-primary-gradient transition-all duration-300">
+              Hire me
+            </button>
+            <button className="btn rounded-3xl px-6">Previous work</button>
+          </div>
         </div>
         <div className="relative flex-[1/3]">
           <div className="bg-base-300 rounded-full border-4 border-[#9642a7] border-t-[#ffffff] border-b-[#3951f2] border-l-[#ffffff] border-r-[#3951f2] overflow-hidden">

@@ -55,32 +55,32 @@ const Navbar = () => {
         <ul className="flex gap-10 menu-horizontal px-1 text-[#181818]">
           <li className="relative group">
             <a className="font-medium">Home</a>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-[#3951f2] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-primary-gradient transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <a className="font-medium">About</a>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-[#3951f2] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-primary-gradient transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <a className="font-medium">Services</a>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-[#3951f2] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-primary-gradient transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <a className="font-medium">Reviews</a>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-[#3951f2] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-primary-gradient transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <a className="font-medium">Portfolio</a>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-[#3951f2] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-primary-gradient transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <a className="font-medium">Pricing</a>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-[#3951f2] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-3px] left-0 w-0 h-1 bg-primary-gradient transition-all duration-300 group-hover:w-full"></span>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="bg-[#3951f2] px-6 py-2 rounded-lg text-white font-medium text-base">
+        <button className="bg-primary-gradient px-6 py-2 rounded-lg text-white font-medium text-base">
           Contact me
         </button>
       </div>

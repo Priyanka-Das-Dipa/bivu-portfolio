@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 ">
+    <div className="navbar">
       <div className="navbar-start">
         {/* medium device icon */}
         <div className="dropdown">
@@ -44,9 +44,9 @@ const Navbar = () => {
           </ul>
         </div>
         <p className=" text-xl">
-          <span className="text-2xl text-[#181818] font-bold">Bivuti </span>
+          <span className="text-2xl text-[#181818] font-bold ">Bivuti </span>
           <br />
-          <span className="text-2xl text-[#3951f2] font-bold pl-5 -pt-5">
+          <span className="text-2xl bg-gradient-to-r from-[#6a0dad] to-[#3951f2] bg-clip-text text-transparent font-bold pl-5 -pt-5">
             Vussion
           </span>
         </p>

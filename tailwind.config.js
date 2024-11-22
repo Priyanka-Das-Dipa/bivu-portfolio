@@ -8,6 +8,7 @@ export default {
         "purple-blue": "linear-gradient(to right, #9642a7, #3951f2)",
 
         'primary-gradient': 'linear-gradient(to right, #6a0dad, #3951f2)',
+        'contact': 'linear-gradient(to right, #9b47e4, #678ef9)'
       },
       
       

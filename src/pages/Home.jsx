@@ -5,7 +5,7 @@ import Faq from "../components/Faq";
 const Home = () => {
   return (
     <section className="space-y-6">
-      <Banner id="home" />
+      <Banner id="home"/>
       <Faq id="faq" />
       <Contact />
     </section>

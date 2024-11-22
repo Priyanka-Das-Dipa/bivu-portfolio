@@ -1,55 +1,27 @@
 import { AiOutlineDiscord } from "react-icons/ai";
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
-import { MdEmail } from "react-icons/md";
 import { SlSocialSkype } from "react-icons/sl";
 
 const Contact = () => {
   return (
-    <section className=" bg-contact min-h-screen ">
+    <section
+      id="contact"
+      className=" bg-contact min-h-screen flex items-center px-5 py-16 "
+    >
       <div className="  max-w-[1200px] mx-auto">
-        <div className="flex justify-center items-center flex-col lg:flex-row-reverse">
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <form className="card-body">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Email</span>
-                </label>
-                <input
-                  type="email"
-                  placeholder="email"
-                  className="input input-bordered"
-                  required
-                />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Password</span>
-                </label>
-                <input
-                  type="password"
-                  placeholder="password"
-                  className="input input-bordered"
-                  required
-                />
-                <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </a>
-                </label>
-              </div>
-              <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
-              </div>
-            </form>
-          </div>
-          <div className="text-center lg:text-left text-white">
-            <h1 className="text-xl uppercase text-center font-bold">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center ">
+          <div className="text-center lg:text-left text-white ">
+            <h1 className="text-sm md:text-xl uppercase text-center font-bold pb-2">
               Contact me now
             </h1>
-            <h1 className="text-5xl uppercase font-bold text-center">
+            <h1 className="text-2xl md:text-5xl uppercase font-bold text-center">
               Let&#39;s get in touch
             </h1>
-            <p className="py-6 uppercase">Email : info@bivutimallik.com</p>
+              <hr className="w-32 border-2 border-white mx-auto mt-3" />
+           
+            <p className="py-6 uppercase text-center">
+              Email : info@bivutimallik.com
+            </p>
             <div className="flex gap-3 justify-center">
               <a
                 href="https://www.linkedin.com/in/bivuti-vussion-mallik/"
@@ -79,6 +51,45 @@ const Contact = () => {
               </a>
               <link rel="stylesheet" href="" />
             </div>
+          </div>
+          <div className="card bg-base-100 w-full max-w-2xl shrink-0 shadow-2xl">
+            <form className="card-body">
+              <div className="flex flex-col lg:flex-row gap-5">
+                <div className="form-control flex-1">
+                  <input
+                    type="first_name"
+                    placeholder="First Name"
+                    className="input input-bordered"
+                    required
+                  />
+                </div>
+                <div className="form-control flex-1">
+                  <input
+                    type="last_name"
+                    placeholder="Last Name"
+                    className="input input-bordered"
+                    required
+                  />
+                </div>
+              </div>
+              <div className="form-control">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  className="input input-bordered"
+                  required
+                />
+              </div>
+              <div className="form-control">
+                <textarea
+                  className="textarea textarea-bordered"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div className="form-control mt-6">
+                <button className="btn btn-primary uppercase">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

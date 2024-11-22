@@ -158,6 +158,7 @@ const Navbar = () => {
               { title: "Portfolio", path: "#portfolio" },
               { title: "Pricing", path: "#pricing" },
               { title: "FAQ", path: "#faq" },
+              { title: "Contact", path: "#contact" },
             ].map((link, index) => (
               <li className="relative group" key={index}>
                 <NavLink
@@ -182,11 +183,11 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="navbar-end">
+        {/* <div className="navbar-end">
           <button className="bg-primary-gradient px-6 py-2 rounded-lg text-white font-medium text-base">
             Contact me
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

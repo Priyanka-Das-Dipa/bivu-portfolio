@@ -1,4 +1,7 @@
+import { FaLinkedin, FaSkype } from "react-icons/fa";
 import img from "../assets/profile-img.png";
+import { MdEmail } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
@@ -6,6 +9,36 @@ const AboutMe = () => {
       <div className="flex">
         <div className="flex-1">
           <img src={img} alt="" />
+          <div className="pt-5">
+            <div className="flex justify-center items-center mb-3">
+              <button className="btn px-12 bg-primary-gradient text-white transition-all duration-300 mr-5 text-base font-medium">
+                Contact me
+              </button>
+            </div>
+            <div className="flex gap-2 justify-center items-start -ml-5">
+              <button className="p-3 bg-primary-gradient text-white rounded-full">
+                <Link
+                  to="https://www.linkedin.com/in/bivuti-vussion-mallik/"
+                  target="_blank"
+                >
+                  <FaLinkedin className="text-2xl" />
+                </Link>
+              </button>
+              <button className="p-3 bg-primary-gradient text-white rounded-full">
+                <Link
+                  to="skype:live:.cid.b079b4dabb308aff?chat"
+                  target="_blank"
+                >
+                  <FaSkype className="text-2xl" />
+                </Link>
+              </button>
+              <button className="p-3 bg-primary-gradient text-white rounded-full">
+                <Link to="https://www.facebook.com/bivutim" target="_blank">
+                  <MdEmail className="text-2xl" />
+                </Link>
+              </button>
+            </div>
+          </div>
         </div>
 
         <div className="flex-1">

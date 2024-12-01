@@ -6,9 +6,9 @@ const Services = () => {
   <div className="py-10">
     <div className="flex items-center justify-start">
       <div className="bg-primary-gradient w-2 h-6 mr-2"></div>
-      <h1 className="text-lg font-bold">Services</h1>
+      <h1 className="text-lg font-bold uppercase">Services</h1>
     </div>
-    <p className="text-[25px] font-bold">What I Do for My Clients</p>
+    <p className="text-[25px] font-bold uppercase">What I Do for My Clients</p>
   </div>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
     {data.map((item, index) => (

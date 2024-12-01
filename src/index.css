@@ -70,3 +70,18 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.box1 {
+  width: 580px;
+  height: 600px;
+  background: url("../src/assets/Google-Ads-portfolio-Long-image.png");
+  /* background-color: brown; */
+  transition: ease-in-out 12s;
+  background-size: cover;
+  background-position: top;
+}
+
+.box1:hover {
+  background-position: bottom;
+}

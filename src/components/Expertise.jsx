@@ -1,9 +1,14 @@
 const Expertise = () => {
   return (
     <section className="max-w-[1200px] mx-auto">
-      <div>
-        <h1 className="uppercase text-xl font-bold">expertise</h1>
-        <p className="text-[25px] font-bold">What you can expect from me</p>
+      <div className="py-10">
+        <div className="flex items-center justify-start">
+          <div className="bg-primary-gradient w-2 h-6 mr-2"></div>
+          <h1 className="text-lg font-bold uppercase">expertise</h1>
+        </div>
+        <p className="text-[25px] font-bold uppercase">
+          What you can expect from me
+        </p>
       </div>
       <div className="bg-slate-300 px-28 py-14 rounded-lg">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-5">

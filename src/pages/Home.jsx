@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import BannerCard from "../components/BannerCard";
 import Expertise from "../components/Expertise";
 import Faq from "../components/Faq";
+import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Expertise />
       <Services />
       <Faq id="faq" />
+      <Portfolio />
       <AboutMe />
       {/* <Contact /> */}
     </section>

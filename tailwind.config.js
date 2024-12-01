@@ -11,16 +11,14 @@ export default {
         'contact': 'linear-gradient(to right, #9b47e4, #678ef9)'
       },
       
-      
       keyframes: {
-        // wave: {
-        //   '0%, 100%': { transform: 'translateX(-5px)' },
-        //   '50%': { transform: 'translateX(5px)' },
-        // },
-        // bounceUpDown: {
-        //   "0%, 100%": { transform: "translateY(-5px)" }, // Moves up
-        //   "50%": { transform: "translateY(5px)" }, // Moves down
-        // },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+      },
+      animation: {
+        float: 'float 3s ease-in-out infinite',
       },
       // animation: {
       //   wave: 'wave 1s ease-in-out infinite',

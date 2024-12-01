@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
-    <section className="max-w-[1200px] mx-auto max-h-screen">
-      <div className="flex">
+    <section className="max-w-[1200px] mx-auto">
+      <div className="flex flex-col md:flex-row">
         <div className="flex-1">
           <img src={img} alt="" />
           <div className="pt-5">
@@ -41,8 +41,11 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="flex-1">
-          <p className="text-xl font-semibold pb-2 text-justify">About Me</p>
+        <div className="flex-1 px-5 md:px-0 mt-10 md:mt-0">
+          <div className="flex items-center justify-start">
+            <div className="bg-primary-gradient w-2 h-6 mr-2"></div>
+            <p className="text-2xl font-semibold pb-2 text-justify">About Me</p>
+          </div>
           <h1 className="text-4xl font-bold uppercase pb-2 text-justify">
             Check out my best skills
           </h1>

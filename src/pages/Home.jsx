@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <section className="space-y-6">
       <Banner id="home" />
+      <Services />
       <Faq id="faq" />
       <AboutMe />
-      <Services />
       <Contact />
     </section>
   );

@@ -1,7 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import BannerCard from "../components/BannerCard";
-import Contact from "../components/contact/Contact";
 import Expertise from "../components/Expertise";
 import Faq from "../components/Faq";
 import Services from "../components/Services";
@@ -15,7 +14,7 @@ const Home = () => {
       <Services />
       <Faq id="faq" />
       <AboutMe />
-      <Contact />
+      {/* <Contact /> */}
     </section>
   );
 };

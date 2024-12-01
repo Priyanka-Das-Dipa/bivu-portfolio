@@ -151,12 +151,12 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-10 menu-horizontal px-1 text-[#181818]">
             {[
-              { title: "Home", path: "#home" },
+              { title: "Home", path: "" },
               { title: "About", path: "#about" },
               { title: "Services", path: "#services" },
               { title: "Reviews", path: "#reviews" },
               { title: "Portfolio", path: "#portfolio" },
-              { title: "Pricing", path: "#pricing" },
+              { title: "Pricing", path: "price" },
               { title: "FAQ", path: "#faq" },
               { title: "Contact", path: "#contact" },
             ].map((link, index) => (

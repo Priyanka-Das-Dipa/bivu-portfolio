@@ -137,7 +137,9 @@ const Navbar = () => {
     //     </button>
     //   </div>
     // </div>
-    <section className="max-w-[1200px] mx-auto">
+    <div className="bg-[#F5F4FB] border-b-2">
+
+    <section className="max-w-[1200px] mx-auto ">
       <div className="navbar">
         <div className="navbar-start">
           <p className=" text-xl">
@@ -190,6 +192,7 @@ const Navbar = () => {
         </div> */}
       </div>
     </section>
+    </div>
   );
 };
 

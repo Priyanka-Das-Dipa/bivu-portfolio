@@ -94,74 +94,10 @@ const ClientReview = () => {
         </p>
       </div>
       <div className="carousel carousel-center rounded-box gap-10">
-        {data.map((client, index) => (
-          <div key={index} className="carousel-item">
-            <div className="card card-side bg-base-100 shadow-xl">
-              <figure>
-                <img
-                  src={client.image}
-                  alt={client.name}
-                  className="object-cover w-[280px]"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title text-bold uppercase">
-                  {client.name}
-                </h2>
-                <p>
-                  from <span className="font-semibold">{client.country}</span>
-                </p>
-                <p className="text-justify text-sm leading-relaxed">
-                  {client.comment}
-                </p>
-              </div>
-            </div>
-          </div>
-        ))}
-        {/* slider - 1 */}
-        <div className="carousel-item">
-          <div className="card card-side bg-base-100 shadow-xl ">
-            <figure>
-              <img src={img1} alt="Movie" className="object-cover w-[280px]" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title text-bold uppercase"> Sharma </h2>
-              <p>
-                {" "}
-                from <span> Netherlands </span>
-              </p>
-              <p className="text-justify text-clip overflow-hidden  ">
-                &quot; I am incredibly grateful for the work Bivuti has done for
-                me. Where even Shopify experts couldn’t find a solution, he
-                solved my issue completely in just one day! Thanks to his
-                expertise, my conversion campaigns are finally working as they
-                should, and I can confidently start running my campaigns.
-                Orchona communicated clearly and understood exactly what was
-                needed. He quickly and professionally made the technical
-                adjustments, including activating the AddToCart event, which
-                hadn’t been working previously due to a custom cart setup. In
-                short, a true expert! I would definitely recommend Bivuti to
-                anyone looking for fast and skilled Shopify assistance.&ldquo;
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* slider - 2 */}
-        <div className="carousel-item">
-          <div className="card card-side bg-base-100 shadow-xl">
-            <figure>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                alt="Movie"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">New movie is released!</h2>
-              <p>Click the button to watch on Jetflix app.</p>
-            </div>
-          </div>
-        </div>
+       
       </div>
+
+  
     </section>
   );
 };

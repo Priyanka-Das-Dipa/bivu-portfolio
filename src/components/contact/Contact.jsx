@@ -17,8 +17,8 @@ const Contact = () => {
             <h1 className="text-2xl md:text-5xl uppercase font-bold text-center">
               Let&#39;s get in touch
             </h1>
-              <hr className="w-32 border-2 border-white mx-auto mt-3" />
-           
+            <hr className="w-32 border-2 border-white mx-auto mt-3" />
+
             <p className="py-6 uppercase text-center">
               Email : info@bivutimallik.com
             </p>

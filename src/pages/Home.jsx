@@ -10,11 +10,11 @@ import Services from "../components/Services";
 const Home = () => {
   return (
     <section className="space-y-6">
-      <Banner id="home" />
+      <Banner />
       <BannerCard />
       <Expertise />
-      <Services />
-      <Faq id="faq" />
+      <Services  />
+      <Faq/>
       <Portfolio />
       <ClientReview />
       <AboutMe />

@@ -11,7 +11,7 @@ import img10 from "../../src/assets/img10.jpg";
 
 const ClientReview = () => {
   return (
-    <section className="max-w-[1200px] mx-auto">
+    <section id="reviews" className="max-w-[1200px] mx-auto">
       <div className="py-10">
         <div className="flex items-center justify-start">
           <div className="bg-primary-gradient w-2 h-6 mr-2"></div>

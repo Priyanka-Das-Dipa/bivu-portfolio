@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   return (
-    <section className="max-w-[1200px] mx-auto">
+    <section id="about" className="max-w-[1200px] mx-auto">
       <div className="flex flex-col md:flex-row">
         <div className="flex-1">
           <img src={img} alt="" />

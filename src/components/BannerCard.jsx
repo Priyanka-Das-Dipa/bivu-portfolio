@@ -18,10 +18,9 @@ const BannerCard = () => {
               className="attachment-large size-large wp-image-200 size-12"
               alt=""
             /> */}
-            <LuFileBadge className="text-3xl" />
+            <LuFileBadge className="text-3xl text-purple-600" />
             <div>
               <p className="text-[40px] font-bold">5 +</p>
-
               <h1 className="text-[15px] text-[#54595f] font-semibold uppercase">
                 Years Experience
               </h1>
@@ -37,11 +36,10 @@ const BannerCard = () => {
               className="attachment-large size-large wp-image-202 size-12"
               alt=""
             /> */}
-            <RiProjectorFill className="text-3xl" />
+            <RiProjectorFill className="text-3xl text-purple-600" />
             <div>
               <p className="text-[40px] font-bold">380 +</p>
               <h1 className="text-[15px] text-[#54595f] font-semibold uppercase">
-                {" "}
                 Completed Projects
               </h1>
             </div>
@@ -56,12 +54,11 @@ const BannerCard = () => {
               className="attachment-large size-large wp-image-204 size-12"
               alt=""
             /> */}
-            <FaUser className="text-3xl" />
+            <FaUser className="text-3xl text-purple-600" />
             <div>
               <p className="text-[40px] font-bold">190 +</p>
               <h1 className="text-[15px] text-[#54595f] font-semibold uppercase">
-                {" "}
-                Satisfied Clients{" "}
+                Satisfied Clients
               </h1>
             </div>
           </div>
@@ -75,7 +72,7 @@ const BannerCard = () => {
               className="attachment-large size-large wp-image-206 size-12"
               alt=""
             /> */}
-            <AiOutlineGlobal className="text-3xl" />
+            <AiOutlineGlobal className="text-3xl text-purple-600" />
             <div>
               <p className="text-[40px] font-bold">20+</p>
               <h1 className="text-[15px] text-[#54595f] font-semibold uppercase">

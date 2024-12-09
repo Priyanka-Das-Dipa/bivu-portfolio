@@ -1,4 +1,4 @@
-import image from "../assets/Google-Ads-portfolio-Long-image.png";
+// import image from "../assets/Google-Ads-portfolio-Long-image.png";
 const Portfolio = () => {
   return (
     <section className="max-w-[1200px] mx-auto">
